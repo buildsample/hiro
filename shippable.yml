@@ -15,6 +15,7 @@ script:
   
   - phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage --bootstrap tests/bootstrap.php tests
 
+
 install: true
 #script: true 
 archive: true
