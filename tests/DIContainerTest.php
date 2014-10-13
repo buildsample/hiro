@@ -9,7 +9,7 @@ class DIContainerTest extends \PHPUnit_Framework_TestCase
         $container = new \Infor\Hiro\DIContainer();
         $container->param = 'value';
 
-        $this->assertEquals('value', $container->param);
+        $this->assertEquals('vale', $container->param);
     }
 
     public function testWithClosure() {
