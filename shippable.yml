@@ -12,7 +12,7 @@ script:
  # - hpunit --bootstrap tests/bootstrap.php tests
   #- phpunit --bootstrap tests/bootstrap.php tests
   #- phpunit --coverage-xml shippable/codecoverage/ --bootstrap tests/bootstrap.php tests
-  
+after_script:  
   - phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage --bootstrap tests/bootstrap.php tests
 
 
