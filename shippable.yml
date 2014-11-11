@@ -6,8 +6,6 @@ php:
 
 before_script:
   - composer dumpautoload
-  
-  
 script:
   - php -v
  # - hpunit --bootstrap tests/bootstrap.php tests
