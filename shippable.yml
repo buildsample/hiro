@@ -18,6 +18,6 @@ after_script:
 install: true
 #script: true 
 archive: true
-after_archive:
-      - echo $SHIPPABLE_ARTIFACTS_URL
+#after_archive:
+ #     - echo $SHIPPABLE_ARTIFACTS_URL
 #cache: true 
