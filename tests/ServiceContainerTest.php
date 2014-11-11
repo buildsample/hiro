@@ -7,7 +7,7 @@ class ServiceContainerTest extends PHPUnit_Framework_TestCase
         $config = ['some' => ['class' => '\Infor\Hiro\Tests\Service', 'arguments' => ['Test']]];
         $container = new Infor\Hiro\ServiceContainer($config);
 
-        $this->assertEquals($container->some->arg, 'Test');
+        $this->assertEquals($container->some->arg, 'est');
     }
 
     public function testWithCall()
