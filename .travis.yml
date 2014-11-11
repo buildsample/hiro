@@ -6,6 +6,8 @@ php:
 before_script:
   - composer dumpautoload
 
+
+
 script:
   - php -v
   - php -l tests/ServiceContainerTest.php
