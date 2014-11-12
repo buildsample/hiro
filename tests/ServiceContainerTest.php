@@ -13,7 +13,7 @@ class ServiceContainerTest extends PHPUnit_Framework_TestCase
     public function testWithCall()
     {
         $config = [
-            'serviceWithArgument' => ['class' => '\Infor\Hiro\Tests\Service', 'arguments' => ['value']],
+            'serviceWithArgument' => ['class' => '\Infor\Hiro\Tests\Service', 'arguments' => ['vaue']],
             'serviceWithCall' => ['class' => '\Infor\Hiro\Tests\Service', 'calls' => ['serviceWithArgument']]
         ];
 
