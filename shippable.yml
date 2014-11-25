@@ -1,5 +1,6 @@
 language: php
-
+env:
+  - secure: f3sgdf0HfEMVpJeSwlgXpgBvK+ilcakVzLVAFBDuBEo0p7LSqsBacXQic+b97DjnrhT1+gheGRAfudraQC8/v8amKWYpivUVQ0vKQbOdJYUMBfb1MaUjnnFxDW32/TDCgIvpZM8vBf0J1jvBBBp8VZkb9GFryqdebAdYD4fVh35ARIGBIpRH5eY/y0teBcH8aRpCqBaUFYxFnBsRJ7iKbciZ1PKyI6Kw9W+Nvb8YrWVB0IDM3VzoCGrg/9+PkoF02yd3T6l5YfeuiafEfqioLqKgSb2VAmn7aWFRwiXtgkHOgU6M112WAIAkobFe/Pc+xw2YLeXKbprKb512tHawpw==
 
 php:
   - 5.5
@@ -22,3 +23,5 @@ archive: true
 #after_archive:
  #     - echo $SHIPPABLE_ARTIFACTS_URL
 cache: true 
+after_script:
+  - echo $key1
