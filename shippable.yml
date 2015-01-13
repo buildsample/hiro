@@ -22,6 +22,7 @@ install: true
 archive: true
 #after_archive:
  #     - echo $SHIPPABLE_ARTIFACTS_URL
-cache: true 
+#cache: true 
 after_script:
   - echo $key1
+build_image: shippable/minv2:beta
