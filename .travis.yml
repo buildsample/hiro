@@ -14,7 +14,5 @@ script:
   - php -l tests/ServiceContainerTest.php
   - phpunit --bootstrap tests/bootstrap.php tests
 
-
-
 notifications:
   email: false
