@@ -4,7 +4,5 @@
 #test
 #
 
-[![Build Status](https://api.shippable.com/projects/54218f4178826375c3f0d232/badge?branchName=master)](https://app.shippable.com/projects/54218f4178826375c3f0d232/builds/latest)
 
-#[![Build Status](https://travis-ci.org/bgruszka/hiro.svg?branch=master)](https://travis-ci.org/bgruszka/hiro)
-https://api.shippable.com/projects/54218f4178826375c3f0d232/badge?branchName=master
+[![Build Status](https://apibeta.shippable.com/projects/54d9b38291426fd6a78cd696/badge?branchName=master)](https://appbeta.shippable.com/projects/54d9b38291426fd6a78cd696/builds/latest)
