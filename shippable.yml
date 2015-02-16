@@ -29,6 +29,7 @@ archive: true
 after_script:
   - echo $key1
 
+
 #build_image: shippable/minv2:beta
 
 cache: true
